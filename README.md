@@ -8,19 +8,23 @@ Run 'npm install' after cloning the the project and run 'npm start' to start the
 API Reference
 =============
 /users
-    get->   Get All Users
+
+    get->   Get All Users    
     post->  Create user
 
 /user/:userId
+
     get->     Get user
     delete->  Delete user
     put->     Update user
 
 /user/:userId/pictures
+
     get->     Get all pictures by user
     post->    Add picture
 
 /picture/:pictureId
+
     get->     Get picture
     delete->  Delete picture
     put->     Update picture
